@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(n + 48);
 	}
-	for (n = 'A'; n <= 'F'; n++)
+	for (n = 'a'; n <= 'f'; n++)
 	{
 		putchar(n);
 	}
