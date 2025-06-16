@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - return void
- * Description: affiche la phrase
+ *
  * Return: 0 succe√s
  */
 
