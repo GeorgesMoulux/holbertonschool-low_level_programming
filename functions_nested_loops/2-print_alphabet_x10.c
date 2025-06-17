@@ -2,31 +2,20 @@
 #include "main.h"
 
 /**
- * print_alphabet_10 - print 10 times [a -z]
- * Description: affiche la phrase
+ * print_alphabet_x10- print 10 times [a -z]
+ * Description: affiche la phrasef
  * Return: 0; succs
  */
-
-void  putstring(char *str)
-{
-	int i;
-
-	i = 0;
-	while (str[i] != '\0')
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-}
 
 void print_alphabet_x10(void)
 {
 	int i;
+	char a;
 
-	while (i <  10)
+	for (i = 0; i < 10; i++)
 	{
-		putstring("abcdefghijklmnopqrstuvxyz");
+		for (a = 'a'; a <= 'z'; a++)
+		_putchar(a);
 		_putchar('\n');
-		i++;
 	}
 }
