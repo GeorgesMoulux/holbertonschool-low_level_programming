@@ -20,7 +20,7 @@ void  putstring(char *str)
 
 int main(void)
 {
-	char *str = "_putchar";
+	char *str = "_putchar\n";
 
 	putstring(str);
 	return (0);
