@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
- * main - return void
- * Description: print putchar
- * Return: 0; succs
+ * main- return void
+ * Description: lol
+ * Return: 0 succs
  */
-void  putstring(char *str)
+
+/*void  putstring(char *str)
 {
 	int i;
 
@@ -23,5 +25,19 @@ int main(void)
 	char *str = "_putchar\n";
 
 	putstring(str);
+	return (0);
+}*/
+
+int main()
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
