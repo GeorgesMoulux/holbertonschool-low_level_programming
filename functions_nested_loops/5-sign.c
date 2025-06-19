@@ -2,6 +2,7 @@
 
 /**
  * print_sign - imprime le signe
+ * @n: number
  * Description: affiche la phrase
  * Return: 0; succs
  */

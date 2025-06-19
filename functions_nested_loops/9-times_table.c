@@ -1,7 +1,9 @@
 #include "main.h"
 
-/*
- * times_table- table de multiplication
+/**
+ * times_table - table de multiplication
+ *
+ * Return: no return
  */
 
 void times_table(void)

@@ -2,6 +2,8 @@
 
 /**
  * print_last_digit - print le dernier chiffre dun nb
+ *
+ * @n: number
  * Description: a
  * Return: 0; succs
  */

@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - return if nimber or not
+ * @c: alpha or not
  * Description: affiche la phrase
  * Return: 0; succs
  */

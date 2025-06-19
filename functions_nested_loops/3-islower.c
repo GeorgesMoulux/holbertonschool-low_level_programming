@@ -2,8 +2,8 @@
 
 /**
  * _islower - return 1 if lower , 0 if not
+ * @c: test number
  * Description: affiche la phrase
- * c - char a test
  * Return: 0; succs
  */
 
