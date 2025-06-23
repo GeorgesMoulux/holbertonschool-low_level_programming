@@ -14,14 +14,16 @@ void fizz_buzz(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
-			printf("%s ", c);
+			printf("%s", c);
 		else if (n % 3 == 0)
-			printf("%s ", a);
+			printf("%s", a);
 		else if (n % 5 == 0)
-			printf("%s ", b);
+			printf("%s", b);
 		else
-			printf("%d ", n);
+			printf("%d", n);
+	printf(" ");
 	}
+	printf("\n");
 }
 
 #include "main.h"
