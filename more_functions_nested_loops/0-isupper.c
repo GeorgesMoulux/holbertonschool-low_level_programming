@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isuper - if uppercase
+ * _isupper - if uppercase
  *
  * @c: letter
  * Description: a
@@ -13,6 +13,6 @@ int _isupper(int c)
 {
 	if (c > 64 && c < 91)
 		return (1);
-	else 
+	else
 		return (0);
 }
