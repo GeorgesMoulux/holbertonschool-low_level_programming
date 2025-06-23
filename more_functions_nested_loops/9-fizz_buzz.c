@@ -22,7 +22,6 @@ void fizz_buzz(void)
 		else
 			printf("%d ", n);
 	}
-	printf("\n");
 }
 
 #include "main.h"
