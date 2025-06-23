@@ -9,10 +9,13 @@ void fizz_buzz(void)
 	int n;
 	char a[] = "Fizz";
 	char b[] = "Buzz";
+	char c[] = "FizzBuzz";
 
 	for (n = 1; n <= 100; n++)
 	{
-		if (n % 3 == 0)
+		if (n % 3 == 0 && n % 5 == 0)
+			printf("%s ", c);
+		else if (n % 3 == 0)
 			printf("%s ", a);
 		else if (n % 5 == 0)
 			printf("%s ", b);
