@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap - swap
+ * swap_int - swap
  * @a: pointeur
  * @b: pointeur
  * Description: nul
