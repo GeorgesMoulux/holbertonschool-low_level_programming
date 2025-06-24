@@ -18,12 +18,12 @@ int _strlen(char *s)
 
 void puts_half(char *str)
 {
-	int j = (_strlen(str) - 1);
+	int j = (_strlen(str));
 	int mid = j / 2;
 
 	while (str[mid] != '\0')
 	{
-	write(1, &str[mid + 1], 1);
+	write(1, &str[mid], 1);
 	mid++;
 	}
 }
