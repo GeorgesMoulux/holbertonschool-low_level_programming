@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int_strlen - taille string
+ * _strlen - taille string
  * @s: pointeur
  * Description: nul
  * Return: 0, ded
