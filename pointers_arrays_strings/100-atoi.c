@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * _atoi - ascii to intger
@@ -24,6 +25,7 @@ int _atoi(char *s)
 	}
 	while (s[i] >= '0' && s[i] <= '9')
 	{
+		if(n
 		n = n * 10;
 		n += s[i] - 48;
 		i++;
