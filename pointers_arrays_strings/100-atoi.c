@@ -28,8 +28,6 @@ int _atoi(char *s)
 		n += s[i] - 48;
 		i++;
 	}
-	if (!(s[i] >= '0' && s[i] <= '9'))
-		return (0);
 	if (m % 2 != 0)
 		n = -n;
 	return (n);
