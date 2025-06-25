@@ -13,6 +13,8 @@ int _atoi(char *s)
 	int m = 0; /*compteur de signe moins */
 	int n = 0;
 
+	if (s[0] == '\0')
+		return (0);
 	while (s[i] < '0' || s[i] > '9')
 	{
 		if (s[i] == '-')
