@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _strlen_recursion - fff
+ * @s: string
+ * Description: lol
+ * Return: rec
+ */
 int _strlen_recursion(char *s)
 {
 	if  (*s == '\0')

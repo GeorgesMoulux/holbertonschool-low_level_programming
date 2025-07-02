@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _puts_recursion - puts
+ * @s: string
+ * Description: lol
+ * Return: rec
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')

@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * factorial - factorial
+ * @n: n
+ * Description: lol
+ * Return: rec
+ */
 int factorial(int n)
 {
 	if (n < 0)
