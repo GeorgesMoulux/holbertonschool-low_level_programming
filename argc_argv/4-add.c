@@ -14,7 +14,8 @@ int main(int argc, char **argv)
 	int i = 0;
 
 	if (argc < 3)
-		return (printf("0\n"));
+		printf("0\n");
+		return (1);
 
 	else
 	{
@@ -26,8 +27,7 @@ int main(int argc, char **argv)
 				if (argv[i][j] >= '0' && argv[i][j] <= '9')
 				j++;
 				else
-				(printf("Error\n"));
-				return (1);
+				return (printf("Error\n"));
 			}
 
 		result += atoi(argv[i]);
