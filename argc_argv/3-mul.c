@@ -17,6 +17,6 @@ int main(int argc, char **argv)
 		printf("%d\n", result);
 	}
 	if (argc < 3)
-		printf("Error");
+		printf("Error\n");
 	return (0);
 }
