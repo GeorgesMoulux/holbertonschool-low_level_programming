@@ -14,10 +14,10 @@ int main(int argc, char **argv)
 	int i = 0;
 
 	if (argc < 3)
-		{
-			printf("0\n");
-			return (0);
-		}
+	{
+		printf("0\n");
+		return (0);
+	}
 
 	else
 	{
