@@ -37,5 +37,7 @@
 			j++;
 			i++;
 		}
+	buffer[i] = '\0';
+	
 	return (buffer);
  }
