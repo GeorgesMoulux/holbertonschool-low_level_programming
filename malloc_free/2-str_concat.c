@@ -3,8 +3,9 @@
 #include <string.h>
 
 /**
- * _strdup - dup
- * @str: string
+ * str_concat - dup
+ * @s1: string
+ * @s2: string
  * Description: nul
  * Return: buffer
  */
