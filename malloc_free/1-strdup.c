@@ -27,7 +27,7 @@ int _strlen(char *s)
 char *_strdup(char *str)
 {
 	unsigned int i = 0;
-	unsigned int size = strlen(str);
+	unsigned int size = _strlen(str);
 	char *buffer;
 
 	if (str == NULL)
