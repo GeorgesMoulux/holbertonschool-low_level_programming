@@ -21,7 +21,10 @@ char *_strdup(char *str)
 
 	if (buffer == NULL)
 		return (NULL);
-	for (i = 0; i <= size; i++)
+	for (i = 0; i < size; i++)
 		buffer[i] = str[i];
+
+	buffer[i] = '\0';
+
 	return (buffer);
 }
