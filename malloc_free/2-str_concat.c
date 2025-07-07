@@ -17,9 +17,10 @@
 	unsigned int t_size = strlen(s1) + strlen(s2);
 	char *buffer;
 
-	if (s1 == NULL || s2 == NULL)
-		return (NULL);
-
+	if (s1 == NULL)
+			s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	buffer = malloc((t_size +1) * sizeof(char));
 
 	if (buffer == NULL)
