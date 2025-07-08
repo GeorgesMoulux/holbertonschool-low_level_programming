@@ -10,18 +10,15 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *buffer;
-	int i = 0;
+	char *buffer;
+	unsigned int i = 0;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	buffer = malloc(nmemb * size);
 	if (buffer == NULL)
 		return (NULL);
-	while (buffer[i])
-	{
+	for (i = 0; i < nmemb * size; i++)
 		buffer[i] = 0;
-		i++;
-	}
 	return (buffer);
 }
