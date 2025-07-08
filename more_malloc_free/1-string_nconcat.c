@@ -18,7 +18,7 @@ int _strlen(char *s)
 }
 
 /**
- * str_nconcat - dup
+ * string_nconcat - dup
  * @s1: string
  * @s2: string
  * @n: bytes
