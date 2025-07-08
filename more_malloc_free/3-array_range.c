@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _calloc - check
- * @nmemb: number of bytes
- * @size: size of a bytes
+ * array_range - check
+ * @min: number of bytes
+ * @max: size of a bytes
  * Description: NUL
  * Return: NUL
  */
@@ -16,11 +16,11 @@ int *array_range(int min, int max)
 
 	if (min > max)
 		return (NULL);
-	buffer = malloc((max - min) * sizeof(int));
+	buffer = malloc((max - min + 1) * sizeof(int));
 	if (buffer == NULL)
 		return (NULL);
 
-	while (i < max + 1)
+	while (min <= max)
 	{
 		buffer[i] = min;
 		i++;
