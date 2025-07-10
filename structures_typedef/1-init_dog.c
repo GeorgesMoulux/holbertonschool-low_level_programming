@@ -2,7 +2,6 @@
 #include "dog.h"
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * _strlen - taille string
@@ -63,7 +62,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->owner = _strdup(owner);
 	if (d->name == NULL || d->owner == NULL)
 	{
-		// Libérer si l’un a réussi mais pas l’autre
 		free(d->name);
 		free(d->owner);
 		d->name = NULL;
